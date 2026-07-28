@@ -73,19 +73,19 @@ const logoIconsList = [
 
 const abilities = [
   {
-    imgPath: "/images/seo.png",
-    title: "Quality Focus",
-    desc: "Delivering high-quality results while maintaining attention to every detail.",
+    imgPath: "/images/web.png",
+    title: "Full Stack Engineering",
+    desc: "Creating modern, scalable, and responsive web applications from frontend to backend.",
   },
   {
-    imgPath: "/images/chat.png",
-    title: "Reliable Communication",
-    desc: "Keeping you updated at every step to ensure transparency and clarity.",
+    imgPath: "/images/ai.png",
+    title: "AI & Machine Learning",
+    desc: "Building intelligent applications powered by machine learning and data-driven models.",
   },
   {
-    imgPath: "/images/time.png",
-    title: "On-Time Delivery",
-    desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
+    imgPath: "/images/dsa.png",
+    title: "Problem Solving",
+    desc: "Designing efficient algorithms and solving complex coding challenges using DSA.",
   },
 ];
 
