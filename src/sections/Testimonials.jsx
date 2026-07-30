@@ -1,4 +1,4 @@
-import { testimonials } from "../constants";
+import { aboutMe } from "../constants";
 import TitleHeader from "../components/TitleHeader";
 import GlowCard from "../components/GlowCard";
 
@@ -12,7 +12,7 @@ const Testimonials = () => {
         />
 
         <div className="lg:columns-3 md:columns-2 columns-1 mt-16">
-          {testimonials.map((testimonial, index) => (
+          {aboutMe.map((testimonial, index) => (
             <GlowCard card={testimonial} key={index} index={index}>
               <div className="flex items-center gap-3">
                 <div>

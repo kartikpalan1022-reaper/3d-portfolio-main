@@ -96,7 +96,7 @@ const Experience = () => {
     >
       <div className="w-full h-full md:px-20 px-5">
         <TitleHeader
-          title="Professional Work Experience"
+          title="Project Timeline"
           sub="💼 My Career Overview"
         />
         <div className="mt-32 relative">
@@ -126,7 +126,7 @@ const Experience = () => {
                           🗓️&nbsp;{card.date}
                         </p>
                         <p className="text-[#839CB5] italic">
-                          Responsibilities
+                          Overview
                         </p>
                         <ul className="list-disc ms-5 mt-5 flex flex-col gap-5 text-white-50">
                           {card.responsibilities.map(
@@ -137,6 +137,9 @@ const Experience = () => {
                             )
                           )}
                         </ul>
+                        <p className="my-5 text-white-50">
+                          🔗 Live Demo : <a href={card.liveLink} className="no-underline cursor-pointer hover:underline">{card.liveLink}</a>
+                        </p>
                       </div>
                     </div>
                   </div>

@@ -34,5 +34,17 @@
     "eslint-plugin-react-refresh": "^0.4.19",
     "globals": "^15.15.0",
     "vite": "^6.2.0"
-  }
+  },
+  "description": "<div align=\"center\">   <br />     <a href=\"https://www.youtube.com/watch?v=E-fdPfRxkzQ\" target=\"_blank\">       <img src=\"public/images/readme.png\" alt=\"Project Banner\">     </a>   <br />",
+  "main": "eslint.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kartikpalan1022-reaper/3d-portfolio-main.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kartikpalan1022-reaper/3d-portfolio-main/issues"
+  },
+  "homepage": "https://github.com/kartikpalan1022-reaper/3d-portfolio-main#readme"
 }

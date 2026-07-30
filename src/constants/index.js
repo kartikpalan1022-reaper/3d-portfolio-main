@@ -4,7 +4,7 @@ const navLinks = [
     link: "#work",
   },
   {
-    name: "Experience",
+    name: "Projects",
     link: "#experience",
   },
   {
@@ -147,41 +147,84 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
+    review:
+        "Built an AI-powered SEO analysis platform that automates website audits, tracks keyword rankings, and delivers actionable optimization insights through AI-driven reports.",
+
     imgPath: "/images/exp1.png",
     logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
-    date: "January 2023 - Present",
+
+    title: "Full Stack & AI Developer",
+
+    date: "July 2026",
+
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
+      "Developed a full-stack SEO platform using React, TypeScript, Node.js, Express, and MongoDB.",
+      "Integrated Browserbase, Playwright, and Google Gemini API to automate website auditing and generate AI-powered SEO recommendations.",
+      "Implemented Google keyword rank tracking, competitor analysis, scheduled updates with cron jobs, and an interactive analytics dashboard.",
     ],
+    liveLink: "https://seo-rank-tracker-front.vercel.app",
   },
   {
-    review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
+    review:
+        "Built a full-stack restaurant reservation platform that streamlines table bookings, restaurant management, and role-based access for customers, restaurant owners, and administrators.",
+
     imgPath: "/images/exp2.png",
     logoPath: "/images/logo2.png",
-    title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+
+    title: "MERN Stack Developer",
+
+    date: "June 2026",
+
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
+      "Developed a full-stack restaurant reservation platform using React, TypeScript, Node.js, Express.js, and MongoDB.",
+      "Implemented JWT authentication, role-based access control, secure booking workflows, and Cloudinary-powered image uploads.",
+      "Built dedicated dashboards for customers, restaurant owners, and administrators with booking management and restaurant approval features.",
     ],
+
+    liveLink: "https://quick-dine-tan.vercel.app/",
   },
   {
-    review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
+    review:
+        "Currently developing a full-stack social media management platform focused on simplifying content planning, scheduling, and multi-platform publishing through a modern and scalable architecture.",
+
     imgPath: "/images/exp3.png",
     logoPath: "/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
+
+    title: "Full Stack Developer",
+
+    date: "Ongoing",
+
     responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
+      "Building a responsive React-based dashboard for scheduling and managing social media content.",
+      "Developing scalable backend APIs, authentication, and database architecture for secure content management.",
+      "Implementing post scheduling, analytics, and multi-platform publishing features as part of an ongoing development process.",
     ],
+
+    // liveLink: "https://your-live-demo.vercel.app", // Remove this line if not deployed yet
+    liveLink : "#"
+
+
   },
+  {
+    review:
+        "Developed a full-stack food delivery platform with secure authentication, online payments, and a dedicated admin dashboard for efficient food and order management.",
+
+    imgPath: "/images/exp4.png",
+    logoPath: "/images/logo4.png",
+
+    title: "MERN Stack Developer",
+
+    date: "May 2026",
+
+    responsibilities: [
+      "Built a MERN-based food delivery application with JWT authentication, cart management, and order processing.",
+      "Integrated Stripe payment gateway for secure online transactions and implemented RESTful APIs using Node.js and Express.",
+      "Developed a dedicated admin dashboard to manage food items, customer orders, and order status updates with MongoDB as the backend database.",
+    ],
+
+    liveLink: "https://food-del-sigma-nine.vercel.app/",
+
+  }
 ];
 
 const expLogos = [
@@ -199,49 +242,8 @@ const expLogos = [
   },
 ];
 
-const testimonials = [
-  {
-    name: "Esther Howard",
-    mentions: "@estherhoward",
-    review:
-      "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
-    imgPath: "/images/client1.png",
-  },
-  {
-    name: "Wade Warren",
-    mentions: "@wadewarren",
-    review:
-      "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
-    imgPath: "/images/client3.png",
-  },
-  {
-    name: "Guy Hawkins",
-    mentions: "@guyhawkins",
-    review:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    imgPath: "/images/client2.png",
-  },
-  {
-    name: "Marvin McKinney",
-    mentions: "@marvinmckinney",
-    review:
-      "Adrian was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
-    imgPath: "/images/client5.png",
-  },
-  {
-    name: "Floyd Miles",
-    mentions: "@floydmiles",
-    review:
-      "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
-    imgPath: "/images/client4.png",
-  },
-  {
-    name: "Albert Flores",
-    mentions: "@albertflores",
-    review:
-      "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
-    imgPath: "/images/client6.png",
-  },
+const aboutMe = [
+
 ];
 
 const socialImgs = [
@@ -270,7 +272,7 @@ export {
   counterItems,
   expCards,
   expLogos,
-  testimonials,
+  aboutMe,
   socialImgs,
   techStackIcons,
   techStackImgs,
