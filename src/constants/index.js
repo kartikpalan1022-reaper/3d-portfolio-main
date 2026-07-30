@@ -12,8 +12,8 @@ const navLinks = [
     link: "#skills",
   },
   {
-    name: "Testimonials",
-    link: "#testimonials",
+    name: "About Me",
+    link: "#aboutMe",
   },
 ];
 
@@ -242,26 +242,104 @@ const expLogos = [
   },
 ];
 
-const aboutMe = [
+const aboutMe = {
 
-];
+  name: "Kartik Palan",
+
+  profileImg: "/images/profile.png",
+
+  sections: [
+
+    {
+      title: "🎓 Education",
+
+      items: [
+
+        "B.Tech in Electronics & Telecommunication",
+
+        "IIIT Bhubaneswar", // <- yaha college naam change kar dena agar zarurat ho
+
+        "2023 - 2027",
+
+        "CGPA : 8.18",
+
+      ],
+    },
+
+    {
+      title: "🏫 Academic Background",
+
+      items: [
+        "Nirmala Memorial Foundation College of Science & Commerce, Higher Secondary (HSC) - 83.5%",
+        "Marol Education Academy High School, Secondary (SSC) - 90.8%",
+
+      ],
+    },
+
+    {
+      title: "⚡ Interests",
+
+      items: [
+
+        "♟️ Chess",
+
+        "🏸 Badminton",
+
+        "💪 Fitness",
+
+        "🤖 Artificial Intelligence",
+
+        "🌍 Open Source",
+
+        "🎵 Music",
+
+        "✈️ Exploring New Technologies",
+
+      ],
+    },
+
+    {
+      title: "🎯 Current Focus",
+
+      items: [
+
+        "Building scalable Full Stack Applications",
+
+        "Machine Learning & AI",
+
+        "System Design",
+
+        "Data Structures & Algorithms",
+
+        "Open Source Contributions",
+
+      ],
+    },
+
+  ],
+
+};
 
 const socialImgs = [
   {
     name: "insta",
     imgPath: "/images/insta.png",
+    link: "https://instagram.com/kartik_palan_"
   },
   {
-    name: "fb",
-    imgPath: "/images/fb.png",
+    name: "leetcode",
+    imgPath: "/images/leetcode.png",
+    link:"https://leetcode.com/u/Kartik_Palan/"
   },
   {
-    name: "x",
-    imgPath: "/images/x.png",
+    name: "github",
+    imgPath: "/images/github.png",
+    link:"https://github.com/kartikpalan1022-reaper/"
   },
   {
     name: "linkedin",
     imgPath: "/images/linkedin.png",
+    link:"https://www.linkedin.com/in/kartik-palan-04049b245/"
   },
 ];
 

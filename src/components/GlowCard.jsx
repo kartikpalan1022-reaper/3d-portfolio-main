@@ -33,11 +33,6 @@ const GlowCard = ({ card, index, children }) => {
       className="card card-border timeline-card rounded-xl p-10 mb-5 break-inside-avoid-column"
     >
       <div className="glow"></div>
-      <div className="flex items-center gap-1 mb-5">
-        <h3 className="text-2xl font-bold text-white">
-          Project Summary
-        </h3>
-      </div>
       <div className="mb-5">
         <p className="text-white-50 text-lg">{card.review}</p>
       </div>
