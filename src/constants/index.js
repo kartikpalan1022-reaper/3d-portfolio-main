@@ -246,7 +246,7 @@ const aboutMe = {
 
   name: "Kartik Palan",
 
-  profileImg: "/images/profile.png",
+  profileImg: "/images/profile.jpeg",
 
   sections: [
 
