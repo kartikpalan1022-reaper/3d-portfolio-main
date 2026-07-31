@@ -339,7 +339,7 @@ const socialImgs = [
   {
     name: "linkedin",
     imgPath: "/images/linkedin.png",
-    link:"https://www.linkedin.com/in/kartik-palan-04049b245/"
+    link:"www.linkedin.com/in/kartik-palan"
   },
 ];
 
