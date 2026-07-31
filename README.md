@@ -4,7 +4,7 @@
 
 An immersive and interactive **3D Developer Portfolio** built with **React, Three.js, React Three Fiber, GSAP, and Tailwind CSS**. This portfolio showcases my projects, technical skills, and experience through smooth animations, interactive 3D elements, and a modern responsive UI.
 
-**Live Demo:** *kartik-portfolio-green.vercel.app*
+**Live Demo:** *(https://kartik-portfolio-green.vercel.app/)*
 
 </div>
 
